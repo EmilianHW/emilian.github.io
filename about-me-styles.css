@@ -1,0 +1,54 @@
+/* About Me page styles */
+
+/* Keyframes for background color transition */
+@keyframes changeBackgroundColor {
+    0% { background-color: #f6d365; }
+    20% { background-color: #fda085; }
+    40% { background-color: #7fd1b9; }
+    60% { background-color: #c1c8e4; }
+    80% { background-color: #fbc2eb; }
+    100% { background-color: #a6c0fe; }
+}
+
+/* Apply animation to body */
+body {
+    animation: changeBackgroundColor 5s infinite; /* Change color every 5 seconds */
+}
+
+/* Other About Me page styles */
+.about-me-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-me-content h2 {
+    text-align: left;
+}
+
+.about-me-content p {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.button {
+    background-color: #333; /* Dark gray background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove underline */
+}
+
+.button:hover {
+    background-color: #666; /* Light gray background on hover */
+}
